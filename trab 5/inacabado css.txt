@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<html lang=pt-br>
+<meta charset=utf-8>
+<meta name=viewport content=initial-scale=1>
+
+<head>
+    <style>
+        body {
+            background-color: black;
+            color: #00ff00;
+        }
+
+        h2 {
+            color: #00ff00;
+            position: absolute;
+            left: 45%;
+
+        }
+
+        video {
+            position: absolute;
+            top: 25%;
+            width: 50%;
+            border: 3px solid #73AD21;
+
+        }
+
+        select {
+            right: 12%;
+            position: absolute;
+            top: 24.8%;
+            width: 25%;
+
+        }
+
+        input {
+            position: absolute;
+            top: 76%
+        }
+
+        div.palavras {
+            position: absolute;
+            top: 80%;
+            right: 80%;
+        }
+ button.trocar{ 
+     color: green; 
+     position:absolute; 
+     top: 28.9%; 
+     right: 16%;
+      width: 16%; 
+        height: 3.5%;
+      font-size: 17px; 
+      }
+      form{
+        position:absolute;
+        border:green;
+        border-style: solid;
+        top: 50%;
+        right: 13%;
+          
+        
+      }
+    </style>
+    <title>Html Multimidias</title>
+</head>
+
+<body>
+    <h2>Multimidia html</h2>
+<input type="file" accept="audio/*,video/*"/>
+<button id="trocar" class="trocar">Tocar</button>
+    <select id="escolhas">
+
+
+    </select>
+    <video controls> </video>
+<form>
+    <div class="butoes">Butoes adicionas</div>
+    <button>&#8635</button>
+    <button>&#x2932;</button>
+    <button>&#8676</button>
+    <button>&#8677</button>
+  </form>
+
+    <div class="palavras">&#8593; escolha acima um audio ou um video</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="main.js"> </script>
+</body>
